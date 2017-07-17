@@ -38,8 +38,8 @@ var speechHandlers = {
     },
     'illegalCategory' : function () {
         // Output sorry message when category not recognized along with a request to choose the category
-        var message = 'Sorry, I could not understand. You can select any of the following categories : ';
-        var reprompt = 'You can ask for any of the following categories : ';
+        var message = 'Entschuldige bitte, das habe ich nicht verstanden. Du kannst eine aus folgenden Kategorien auswählen : ';
+        var reprompt = 'Du kannst nach folgenden Kategorien fragen : ';
         // Call category helper to get list of all categories
         categoryHelper((categoryList) => {
             message += categoryList;
@@ -181,8 +181,8 @@ var speechHandlers = {
         }
 
         items.forEach(function (feed) {
-            content += config.speech_style_for_numbering_feeds + " " + (feed.count + 1) + ". " + feed.title + ". ";
-            cardContent += config.speech_style_for_numbering_feeds + " " + (feed.count + 1) + ". " + feed.title;
+            content += config.speech_style_for_numbering_feeds + " " + (feed.count + 1) + feed.title + ". ";
+            cardContent += config.speech_style_for_numbering_feeds + " " + (feed.count + 1) + feed.title;
             // If config flag set to display description, append description
             if (!config.display_only_title_in_card) {
                 cardContent += "  -  ";
@@ -249,8 +249,8 @@ var speechHandlers = {
         }
 
         items.forEach(function (feed) {
-            content += config.speech_style_for_numbering_feeds + " " + (feed.count + 1) + ". " + feed.title + ". ";
-            cardContent += config.speech_style_for_numbering_feeds + " " + (feed.count + 1) + ". " + feed.title;
+            content += config.speech_style_for_numbering_feeds + " " + (feed.count + 1) + feed.title + ". ";
+            cardContent += config.speech_style_for_numbering_feeds + " " + (feed.count + 1) + feed.title;
             // If config flag set to display description, append description
             if (!config.display_only_title_in_card) {
                 cardContent += "  -  ";

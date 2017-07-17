@@ -18,7 +18,7 @@ var config = {
 
     },
 
-    speech_style_for_numbering_feeds : 'Item',
+    speech_style_for_numbering_feeds : 'Artikel',
 
     // TODO Add the s3 Bucket Name, dynamoDB Table Name and Region
     s3BucketName : 'get-newest-gnit-articles-bucket',

@@ -3,4 +3,7 @@ SelectCategory Kategorie {Index}
 SelectCategory Nummer {Index}
 
 ItemInfo gib mir die Details des {Ordinal} Artikels
+
 SendItem schicke mir die Details des {Ordinal} Artikels
+
+GetCategoryList nach der Liste der Kategorien
