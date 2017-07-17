@@ -1,0 +1,6 @@
+SelectCategory {Index}
+SelectCategory Kategorie {Index}
+SelectCategory Nummer {Index}
+
+ItemInfo gib mir die Details des {Ordinal} Artikels
+SendItem schicke mir die Details des {Ordinal} Artikels

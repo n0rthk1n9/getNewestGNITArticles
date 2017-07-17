@@ -1,4 +1,4 @@
-CATEGORY_NAME_1
-CATEGORY_NAME_2
-CATEGORY_NAME_3
+Der Job
+Der Verkehr
+Die Fahrgäste
 Favorite

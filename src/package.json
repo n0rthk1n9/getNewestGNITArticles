@@ -1,7 +1,7 @@
 {
-  "name": "skill-sample-nodejs-feed",
+  "name": "getNewestGNITArticles",
   "version": "1.0.0",
-  "description": "An Alexa Skill Template to help create skills that read RSS/Atom feeds. ",
+  "description": "An Alexa Skill to read the RSS feed of german website Gestern Nacht im Taxi",
   "dependencies": {
     "alexa-sdk": "1.0.5",
     "async": "2.0.0-rc.6",
@@ -11,5 +11,5 @@
     "request": "2.72.0",
     "striptags": "2.1.1"
   },
-  "author": "Amazon.com"
+  "author": "Jan Armbrust"
 }
